@@ -1,0 +1,233 @@
+variable_number,variable_name,data_type,variable_label,variable_options_at_entry
+1,CASEID,numeric,Case Identification Number,
+2,SEX,character,Gender,
+3,RACE_NEW,character,New Race,
+4,ETHNICITY_HISPANIC,character,Ethnicity Hispanic,
+5,PRNCPTX,character,Principle operative procedure CPT code description,
+6,CPT,character,CPT,
+7,WORKRVU,numeric,Work Relative Value Unit,
+8,INOUT,character,Inpatient/outpatient,
+9,TRANST,character,Origin status,Home/Permanent residence; Acute are hospital; Other facility; Unknown
+10,AGE,numeric,Age of paitents with over 89 coded as 90+,
+11,ADMYR,numeric,Year of Admission,
+12,ADMSYR,numeric,Year of Admission to Surgery,
+13,OPERYR,numeric,Year of Operation,
+14,ANESTHES,character,Principal anesthesia technique,
+15,ATTEND,character,Level of Residency Supervision,"Attending & Resident in OR; Attending Alone; Attending Not Present, but Available"
+16,SURGSPEC,character,Surgical specialty,
+17,HEIGHT,numeric,Height in inches,
+18,WEIGHT,numeric,Weight in lbs,
+19,DIABETES,character,Diabetes mellitus with oral agents or insulin,
+20,SMOKE,character,Current smoker within one year,
+21,PACKS,numeric,Pack-years of smoking,
+22,ETOH,character,Etoh > 2 drinks/day in 2 wks before admission,
+23,DYSPNEA,character,Dyspnea,
+24,DNR,character,Do not resuscitate (DNR) status,
+25,FNSTATUS1,character,Functional health status prior to current illness,
+26,FNSTATUS2,character,Functional health status prior to surgery,
+27,VENTILAT,character,Ventilator dependent,
+28,HXCOPD,character,History of severe COPD,Yes; No
+29,CPNEUMON,character,Current pneumonia,Yes; No
+30,ASCITES,character,Ascites,Yes; No
+31,ESOVAR,character,Esophageal varices,Yes; No
+32,HXCHF,character,CHF 30 days before surgery,Yes; No
+33,HXMI,character,MI within 6 months of surgery,Yes; No
+34,PRVPCI,character,Previous PCI,Yes; No
+35,PRVPCS,character,Previous cardiac surgery,Yes; No
+36,HXANGINA,character,Angina,Yes; No
+37,HYPERMED,character,Hypertension requiring medication,Yes; No
+38,HXPVD,character,History of revascularization/ampuptation for peripheral vascular disease,Yes; No
+39,RESTPAIN,character,Rest pain/gangrene,Yes; No
+40,RENAFAIL,character,Acute renal failure pre-operatively,Yes; No
+41,DIALYSIS,character,Currently on dialysis (pre-op),Yes; No
+42,IMPSENS,character,Impaired sensorium,Yes; No
+43,COMA,character,Coma at time of entering surgery (not including intubation),Yes; No
+44,HEMI,character,Hemiplegia,Yes; No
+45,HXTIA,character,History of transient ischemic attack,Yes; No
+46,CVA,character,CVA/stroke with neurological deficit,Yes; No
+47,CVANO,character,CVA/stroke with no neuological deficit,Yes; No
+48,TUMORCNS,character,Tumor involving CNS,Yes; No
+49,PARA,character,Paraplegia,Yes; No
+50,QUAD,character,Quadriplegia,Yes; No
+51,DISCANCR,character,Disseminated cancer,Yes; No
+52,WNDINF,character,Open wound/wound infection,Yes; No
+53,STEROID,character,Steroid use for chronic condition,Yes; No
+54,WTLOSS,character,>10% weight loss in last 6 months,Yes; No
+55,BLEEDDIS,character,Bleeding disorders,Yes; No
+56,TRANSFUS,character,Preop transfusion of >= 1 unit of whole/packed RBCs in 72 hours prior to surgery,Yes; No
+57,CHEMO,character,Chemotherapy for malignancy in <= 30 days pre-op,Yes; No
+58,RADIO,character,Radiotherapy for malignancy in last 90 days,Yes; No
+59,PRSEPIS,character,Systemic sepsis,Yes; No
+60,PREGNANCY,character,Pregnancy,Yes; No
+61,PROPER30,character,Prior operation within 30 days,Yes; No
+62,DPRNA,numeric,Days from NA preoperative labs to operation,
+63,DPRBUN,numeric,Days from BUN Preoperative Labs to Operation,
+64,DPRCREAT,numeric,Days from Creatinine Preoperative Labs to Operation,
+65,DPRALBUM,numeric,Days from Albumin Preoperative Labs to Operation,
+66,DPRBILI,numeric,Days from Bilirubin Preoperative Labs to Operation,
+67,DPRSGOT,numeric,Days from SGOT Preoperative Labs to Operation,
+68,DPRALKPH,numeric,Days from ALKPHOS Preoperative Labs to Operation,
+69,DPRWBC,numeric,Days from WBC Preoperative Labs to Operation,
+70,DPRHCT,numeric,Days from HCT Preoperative Labs to Operation,
+71,DPRPLATE,numeric,Days from PlateCount Preoperative Labs to Operation,
+72,DPRPTT,numeric,Days from PTT Preoperative Labs to Operation,
+73,DPRPT,numeric,Days from PT Preoperative Labs to Operation,
+74,DPRINR,numeric,Days from INR Preoperative Labs to Operation,
+75,PRSODM,numeric,Pre-operative serum sodium,
+76,PRBUN,numeric,Pre-operative BUN,
+77,PRCREAT,numeric,Pre-operative serum creatinine,
+78,PRALBUM,numeric,Pre-operative serum albumin,
+79,PRBILI,numeric,Pre-operative total bilirubin,
+80,PRSGOT,numeric,Pre-operative SGOT,
+81,PRALKPH,numeric,Pre-operative alkaline phosphatase,
+82,PRWBC,numeric,Pre-operative WBC,
+83,PRHCT,numeric,Pre-operative hematocri,
+84,PRPLATE,numeric,Pre-operative platelet count,
+85,PRPTT,numeric,Pre-operative PTT,
+86,PRINR,numeric,Pre-operative International Normalized Ratio (INR) of PT values,
+87,PRPT,numeric,Pre-operative PT,
+88,OPNOTE,character,Surgeon who dictated the operative note.,
+89,PGY,numeric,Highest Level of Resident Surgeon,0-10
+90,EMERGNCY,character,Emergency case,Yes; No
+91,WNDCLAS,character,Wound classification,1 = Clean; 2 = Clean/Contaminated; 3 = Contaminated; 4 = Dirty/Infected
+92,ASACLAS,character,ASA Class,1 = No Disturb; 2 = Mild Distrub; 3 = Severe Distrub; 4 = Life Threat; 5 = Moribund; None assigned
+93,AIRTRA,character,Airway trauma,"None; Lip laceration or hematoma; Tooth chipped, loosened or lost; Tongue laceration or hematoma; Pharyngeal laceration; Laryngeal laceration; Failure to intubate"
+94,MALLAMP,numeric,Mallampati scale,1; 2; 3; 4
+95,MORTPROB,numeric,Estmated probability of mortality,
+96,MORBPROB,numeric,Estimated probability of morbidity,
+97,RBC,numeric,Number of RBC unites given intraoperatively,
+98,ANESURG,numeric,Duration from Anesthesia start to surgery start,
+99,SURGANE,numeric,Duration from Surgery stop to Anesthesia stop,
+100,DPATRM,numeric,Duration patient is in Room,
+101,ANETIME,numeric,Duration of Anesthesia,
+102,OPTIME,numeric,Total operation time,
+103,TYPEINTOC,character,Type of intraoperative occurrence,Cardiac arrest requiring CPR; Myocardial infarction; Unplanned Intubation
+104,SDISDT,numeric,Year discharged/transferred from surgical service,
+105,HDISDT,numeric,Hospital discharge year,
+106,YRDEATH,numeric,Year of death,
+107,TOTHLOS,numeric,Length of total hospital stay,
+108,ADMQTR,numeric,Quarter of Admission,
+109,HTOODAY,numeric,Days from Hospital Admission to Operation,
+110,STOODAY,numeric,Days from Surgical Admision to Operation,
+111,TOTSLOS,numeric,Length of total surgical stay,
+112,NSUPINFEC,numeric,Number of Wound Occurrences,
+113,SUPINFEC,character,Superficial surgical site infection,Yes; No
+114,DSUPINFEC,numeric,Days from Operation until Superficial Incisional SSI Complication,
+115,NWNDINFD,numeric,Number of Deep Incisional SSI Occurrences,
+116,WNDINFD,character,Occurrences Deep Incisional SSI,Deep Incisional SSI; No Complication
+117,DWNDINFD,numeric,Days from Operation until Deep Incisional SSI Complication,
+118,NORGSPCSSI,numeric,Number of Organ/Space SSI Occurrences,
+119,ORGSPCSSI,character,Occurrences Organ Space SSI,Organ/Space SSI; No Complication
+120,DORGSPCSSI,character,Organ/Space SSI PATOS,Yes; No
+121,NDEHIS,numeric,Number of Wound Disruption Occurrences,
+122,DEHIS,character,Occurrences Wound Disrupt,Wound Disruption; No Complication
+123,DDEHIS,numeric,Days from Operation until Wound Disruption Complication,
+124,NOUPNEUMO,numeric,Number of Pneumonia Occurrences,
+125,OUPNEUMO,character,Pneumonia; No Complication,
+126,DOUPNEUMO,numeric,Days from Operation until Pneumonia Complication,
+127,NREINTUB,numeric,Number of Unplanned Intubation Occurrences,
+128,REINTUB,character,Occurrences unplanned intubation,Unplanned Intubation; No Complication
+129,DREINTUB,numeric,Days from Operation until Unplanned Intubation Complication,
+130,NPULEMBOL,numeric,Number of Pulmonary Embolism Occurrences,
+131,PULEMBOL,character,Occurrences Pulmonary Embolism,Pulmonary Embolism; No Complication
+132,DPULEMBOL,numeric,Days from Operation until Pulmonary Embolism Complication,
+133,NFAILWEAN,numeric,Number of On Ventilator > 48 Hours Occurrences,
+134,FAILWEAN,character,Occurrences Ventilator > 48 hours,On Ventilator greater than 48 hours; No Complication
+135,DFAILWEAN,numeric,Days from Operation until On Ventilator > 48 Hours Complication,
+136,NRENAINSF,numeric,Number of Progressive Renal Insufficiency Occurrences,
+137,RENAINSF,character,Occurrences Progressive Renal Insufficiency,Progressive Renal Insufficiency; No Complication
+138,DRENAINSF,numeric,Days from Operation until Progressive Renal Insufficiency Complication,
+139,NOPRENAFL,numeric,Number of Acute Renal Failure Occurrences,
+140,OPRENAFL,character,Occurrences Acute Renal Failure,Acute Renal Failure; No Complication
+141,DOPRENAFL,numeric,Days from Operation Until Acute Renal Failure Complication,
+142,NURNINFEC,numeric,Number of Urinary Tract Infection Occurences,
+143,URNINFEC,character,Occurences Urinary Tract Infection,Urinary Tract Infection; No Complication
+144,DURNINFEC,numeric,Days from Operation until Urinary Tract Infection Complcation,
+145,NCNSCVA,numeric,Number of Stroke/CVA Occurrences,
+146,CNSCVA,character,Stroke/CVA with neurological deficit,Stroke/CVA; No Complication
+147,DCNSCVA,numeric,Days from Operation until Stroke/CVA Complication,
+148,NCNSCOMA,numeric,Number of Coma > 24 Hours Occurrences,
+149,CNSCOMA,character,Coma > 24 Hours,Coma greater than 24 hours; No Complication
+150,DCNSCOMA,numeric,Days from Operation until Coma > 24 Hours Complication,
+151,NNEURODEF,numeric,Number of Peripehral Nerve Injury Occurrences,
+152,NEURODEF,character,Peripheral Nerve Injury,Peripheral nerve injury; No Complication
+153,DNEURODEF,numeric,Days from Operation until Peripheral Nerve Injury Complication,
+154,NCDARREST,numeric,Number of Cardiac Arrest Requiring CPR Occurrences,
+155,CDARREST,character,Occurrences Cardiac Arrest Requiring CPR,Cardiac Arrest Requiring CPR; No Complication
+156,DCDARREST,numeric,Days from Operation until Cardiac Arrest Requiring CPR Complication,
+157,NCDMI,numeric,Number of Myocardial Infarction Occurrences,
+158,CDMI,character,Occurrences Myocardial Infarction,Myocardial Infraction; No Complication
+159,DCDMI,numeric,Days from Operation until Myocardial Infarcdtion Complication,
+160,NOTHBLEED,numeric,Number of Bleeding Transfusions Occurrences,
+161,OTHBLEED,character,Occurrences Bleeding Transfusions,Transfusions/Intraop/Postop; No Complication
+162,DOTHBLEED,numeric,Days from Operation Until Bleeding Transfusions Complication,
+163,NOTHGRAFL,numeric,Number of Graft/Prosthesis/Flap Failure Occurrences,
+164,OTHGRAFL,character,Occurrences Graft/Prosthesis/Flap Failure,Graft/Prosthesis/Flap Failure; No Complication
+165,DOTHGRAFL,numeric,Days from Operation until Graft/Prosthesis/Flap Failure Complication,
+166,NOTHDVT,numeric,Number of DVT/Thrombophlebitis Occurrences,
+167,OTHDVT,character,Occurrences DVT/Thrombophlebitis,DVT Requiring Therapy; No Complication
+168,DOTHDVT,numeric,Days from Operation until DVT/Thrombophlebitis Complication,
+169,NOTHSYSEP,numeric,Number of Sepsis Occurrences,
+170,OTHSYSEP,character,Occurrences Sepsis,Sepsis; No Complication
+171,DOTHSYSEP,numeric,Days from Operation until Sepsis Complication,
+172,NOTHSESHOCK,numeric,Number of Septic Shock Occurrences,
+173,OTHSESHOCK,character,Occurrences Septic Shock,Septic Shock; No Complication
+174,DOTHSESHOCK,numeric,Days from Operation until Septic Shock Complication,
+175,PODIAG,character,Post-op diagnosis (ICD 9),
+176,PODIAGTX,character,Post-op diagnosis Text,
+177,RETURNOR,character,Return to OR,Yes; No
+178,DSDTOHD,numeric,Days from Surgical Discharge (Acute Care Discharge) to Hospital Discharge,
+179,DOPERTOD,numeric,Days from Operation to Death,
+180,DOPTODIS,numeric,Days from Operation to Discharge,
+181,OTHERCPT,character,CPT Code,
+182,OTHERPROC,character,Other Procedure,
+183,CONCPT,character,Concurrent CPT,
+184,CONCURR,character,Conccurrent Procedure,
+185,ELECTSURG,character,Elective Surgery,Yes; No; Unknown
+186,DISCHDEST,character,Discharge Destination,"Skilled Care, Not Home; Unskilled Facility Not Home; Facility Which was Home; Home; Separate Acute Care; Rehab; Expired; Unknown"
+187,READMISSION,character,Readmission,Yes; No
+188,UNPLANREADMISSION,character,Unplanned Readmision,Yes; No
+189,REOPERATION,character,Unplanned Reoperation,Yes; No
+190,STILLINHOSP,character,Still in Hospital > 30 days,Yes; No
+191,SSSIPATOS,character,Superficial Incisional SSI PATOS,Yes; No
+192,DSSIPATOS,character,Deep Incisional SSI PATOS,Yes; No
+193,OSSIPATOS,character,Organ/Space SSI PATOS,Yes; No
+194,PNAPATOS,character,Pneumonia PATOS,Yes; No
+195,UTIPATOS,character,UTI PATOS,Yes; No
+196,VENTPATOS,character,On Ventilator > 48 Hours PATOS,
+197,SEPSISPATOS,character,Sepsis PATOS,
+198,SEPSHOCKPATOS,character,Saptic Shock PATOS,
+199,RETORPODAYS,numeric,Days from principal operative procedure to Unplanned Reoperation 1,
+200,RETORRELATED,character,Unplanned Reoperation 1 related to principal operative procedure,
+201,RETOR2PODAYS,numeric,Days from principal operative procedure to Unplanned Reoperation 2,
+202,RETOR2RELATED,character,Unplanned Reoperation 2 related to principal operative procedure,
+203,READMPODAYS1,numeric,Days from principal operative procedure to Any Readmission 1,
+204,READMPODAYS2,numeric,Days from principal operative procedure to Any Readmission 2,
+205,READMPODAYS3,numeric,Days from principal operative procedure to Any Readmission 3,
+206,READMPODAYS4,numeric,Days from principal operative procedure to Any Readmission 4,
+207,READMPODAYS5,numeric,Days from principal operative procedure to Any Readmission 5,
+208,PODIAG10,character,Post-op diagnosis (ICD 10),
+209,PODIAGTX10,character,Post-op Diagnosis Text,
+210,WOUND_CLOSURE,character,Surgical wound closure,"All layers of incision (deep and superficial) fully closed; Only deep layers closed, superficial left open; No layers of incision are surgically closed"
+211,PODIAG_OTHER,character,Other postoperative occurrence (ICD 9),
+212,PODIAG_OTHER10,character,Other postoperative occurrence (ICD 10),
+213,ANESTHES_OTHER,character,Additional anesthesia technique,
+214,PUFYEAR,character,Year of PUF,
+215,OTHCDIFF,character,Occurrences Clostridium Difficile (C. diff) colitis,C. diff; No Complication
+216,NOTHCDIFF,numeric,Number of C. Diff Occurrences,
+217,DOTHCDIFF,numeric,Days from operation until C. diff Complication,
+218,EOL_WDCARE,character,Dne of Life-Withdrawal of Care,Yes; No
+219,BLEED_UNITS_TOT,numeric,Postop total transfusion amount,
+220,OTHERWRVU,numeric,Other Work Relative Value Unit,
+221,CONWRVU,numeric,Concurrent Work Relative Value Unit,
+222,UNPLANNEDREADMISSION,character,Unplanned Readmission,Yes; No
+223,REOPORCPT,character,Unplanned Reoperation CPT,
+224,REOPORICD9,character,The ICD-9 code for Unplanned Reoperation,
+225,REOPORICD10,character,The ICD-10 code for Unplanned Reoperation,
+226,READMSUSPREASON,character,Readmission related to suspected reason,Yes; No
+227,READMRELATED,character,Unplanned readmission likely related to the principal procedure,Yes; No
+228,READMRELICD9,character,"The ICD-9 code for the suspected reason if ""Other"" is chosen and the readmission is likely related to the principle operating procedure",
+229,READMRELICD10,character,"The ICD-10 code for the suspected reason if ""Other"" is chosen and the readmission is likely related to the principle operating procedure",
+230,READMUNRELSUSP,character,Readmission unrelated suspected reason,
+231,READMUNRELICD9,character,"The ICD-9 code for the suspected reason if ""Other"" is chosen and the readmission is likely related to the principle operating procedure",
+232,READMUNRELICD10,character,"The ICD-10 code for the suspected reason if ""Other"" is chosen and the readmission is likely related to the principle operating procedure",
