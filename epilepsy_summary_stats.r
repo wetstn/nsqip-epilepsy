@@ -1,7 +1,3 @@
-# ----------------------------------------------------------------------
-# ANOVA and chi-square analysis for race (>2 subgroups)
-# ----------------------------------------------------------------------
-
 # Install packages if necessary
 #install.packages("googlesheets4")
 #install.packages("dplyr")
